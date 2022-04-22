@@ -1,0 +1,120 @@
+/* Tipo de letra*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* Barra de navegacion*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(Fondo.jpg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(157, 0, 255);
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+
+}
+.Img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    width: 500px;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+}
+.Inicio{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Inicio:hover{
+        color: black;
+}
+.Serivicos{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Serivicos:hover{
+    color: rgb(0, 0, 0);
+}
+.Clientes{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Clientes:hover{
+    color: rgb(0, 0, 0);
+}
+.Contacto{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Contacto:hover{
+    color: rgb(0, 0, 0);
+}
+main{
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+}
+.Saludo {
+    background-color: blueviolet;
+
+}
+
+/* Crear usuario */
+
+.FotoUsuario {
+width: 100px;
+height: 100px;
+border-radius: 100%;
+}
+.Usuario {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: 'Bangers', cursive;
+    color: azure;
+}
+.Saludo {
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+    margin-top: 10px;
+}
+.Preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 240px;
+    margin-bottom: 10px;
+
+}
+input{
+    font-family: 'Bangers', cursive;
+    color: blueviolet;
+}
