@@ -65,8 +65,6 @@ nav{
     color: rgb(0, 0, 0);
 }
 main{
-    height: 100vh;
-    width: 100vh;
     margin: auto;
 }
 .Saludo {
@@ -97,7 +95,6 @@ border-radius: 100%;
     color: azure;
 }
 .Saludo {
-    /* background-color: black; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -112,7 +109,6 @@ border-radius: 100%;
     align-items: center;
     height: 240px;
     margin-bottom: 10px;
-
 }
 input{
     font-family: 'Bangers', cursive;
