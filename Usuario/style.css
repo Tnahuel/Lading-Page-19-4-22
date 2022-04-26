@@ -11,9 +11,16 @@
 body{
 background-image: url(Fondo.jpg);
 }
+.invisible{
+    height: 100px;
+    display: none;
+    color: transparent;
+    visibility:hidden
+}
 nav{
     display: flex;
     justify-content: space-between;
+    position: fixed;
     background-color: rgb(157, 0, 255);
     border-radius: 20px;
     margin-top: 10px;
@@ -84,9 +91,10 @@ border-radius: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
     align-items: center;
     margin-top: 100px;
-    margin-left: auto;
+    margin-left: 35%;
     margin-right: auto;
     height: 400px;
     width: 250px;
