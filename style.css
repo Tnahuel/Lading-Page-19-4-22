@@ -9,6 +9,7 @@ background-image: url(Fondo.jpg);
 
 
 
+
 }
 .invisible{
     height: 100px;
@@ -18,7 +19,7 @@ background-image: url(Fondo.jpg);
 }
 nav{
     display: flex;
-    position: fixed ;
+    position: fixed;
     justify-content: space-between;
     background-color: blueviolet;
     border-radius: 20px;
@@ -125,5 +126,68 @@ nav{
     height: auto;
     font-family: 'Bangers', cursive;
     color: aliceblue;
-
+}
+/* Conociminetos de programacion actuales */
+.iconos-principal {
+    background-color: rgb(89, 3, 169);
+    border-radius:20px;
+    margin: auto;
+    font-family: 'Bangers', cursive;
+    color: aliceblue;
+    height: 250px;
+    margin: 3%;
+}
+.titulo-iconos{
+    text-align: center;
+    padding: 30px;
+    height: 50px;
+}
+.iconos-manejo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-start;
+    height: 60%;
+    
+}
+.HTML {
+height: 100%;
+width: 33.3%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.HTML img{
+    width: 48px;
+    height: 48px;
+}
+.CSS{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+.CSS img{
+    width: 48px;
+    height: 48px;
+}
+.JS{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+.JS img{
+    width: 48px;
+    height: 48px;
+}
+.JS p{
+    width: 95%;
 }
